@@ -1,0 +1,12 @@
+<odoo>
+    <data>
+        <menuitem name="School"
+                  id="demo_my_school.school_meu_root"/>
+
+        <menuitem name="Student"
+                  id="demo_my_school.student_list"
+                  parent="demo_my_school.school_meu_root"
+                  action="open_view_student_tree"/>
+
+    </data>
+</odoo>
